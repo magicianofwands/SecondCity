@@ -1,0 +1,36 @@
+/datum/job/vampire/warlord
+	title = JOB_WARLORD
+	faction = FACTION_ANARCHS
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = SUPERVISOR_BARON
+	config_tag = "WARLORD"
+	job_flags = CITY_JOB_FLAGS
+	outfit = /datum/outfit/job/vampire/baron
+
+	display_order = JOB_DISPLAY_ORDER_BARON
+	departments_list = list(
+		/datum/job_department/anarch,
+	)
+
+	known_contacts = list("Bouncer", "Emissary", "Sweeper","Baron","Reeve")
+	allowed_clans = list(VAMPIRE_CLAN_DAUGHTERS_OF_CACOPHONY, VAMPIRE_CLAN_BAALI, VAMPIRE_CLAN_BANU_HAQIM, VAMPIRE_CLAN_CAITIFF, VAMPIRE_CLAN_TRUE_BRUJAH, VAMPIRE_CLAN_BRUJAH, VAMPIRE_CLAN_NOSFERATU, VAMPIRE_CLAN_GANGREL, VAMPIRE_CLAN_CITY_GANGREL, VAMPIRE_CLAN_TOREADOR, VAMPIRE_CLAN_MALKAVIAN, VAMPIRE_CLAN_VENTRUE, VAMPIRE_CLAN_LASOMBRA, VAMPIRE_CLAN_GARGOYLE, VAMPIRE_CLAN_SETITE, VAMPIRE_CLAN_SAMEDI, VAMPIRE_CLAN_NAGARAJA)
+	allowed_splats = list(SPLAT_KINDRED)
+	description = "You are the right-hand of the Baron, expected to lead the other Anarchs on the frontline and through combat."
+	minimum_masquerade = 3
+
+/datum/outfit/job/vampire/baron
+	name = "Warlord"
+	jobtype = /datum/job/vampire/warlord
+
+	id = /obj/item/card/baron
+	ears = /obj/item/radio/headset/darkpack
+	glasses = /obj/item/clothing/glasses/vampire/sun
+	uniform = /obj/item/clothing/under/vampire/bar
+	suit = /obj/item/clothing/suit/vampire/jacket/better
+	shoes = /obj/item/clothing/shoes/vampire
+	gloves = /obj/item/clothing/gloves/vampire/work
+	l_pocket = /obj/item/smartphone/baron
+	r_pocket = /obj/item/vamp/keys/anarch
+	backpack_contents = list(/obj/item/vampire_stake=3, /obj/item/vamp/keys/hack=1, /obj/item/card/credit=1)
+
