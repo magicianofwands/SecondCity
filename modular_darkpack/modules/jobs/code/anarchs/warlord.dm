@@ -6,7 +6,7 @@
 	supervisors = SUPERVISOR_BARON
 	config_tag = "WARLORD"
 	job_flags = CITY_JOB_FLAGS
-	outfit = /datum/outfit/job/vampire/baron
+	outfit = /datum/outfit/job/vampire/warlord
 
 	display_order = JOB_DISPLAY_ORDER_BARON
 	departments_list = list(
@@ -19,11 +19,11 @@
 	description = "You are the right-hand of the Baron, expected to lead the other Anarchs on the frontline and through combat."
 	minimum_masquerade = 3
 
-/datum/outfit/job/vampire/baron
+/datum/outfit/job/vampire/warlord
 	name = "Warlord"
 	jobtype = /datum/job/vampire/warlord
 
-	id = /obj/item/card/baron
+	id = /obj/item/card/warlord
 	ears = /obj/item/radio/headset/darkpack
 	glasses = /obj/item/clothing/glasses/vampire/sun
 	uniform = /obj/item/clothing/under/vampire/bar
@@ -32,5 +32,5 @@
 	gloves = /obj/item/clothing/gloves/vampire/work
 	l_pocket = /obj/item/smartphone/baron
 	r_pocket = /obj/item/vamp/keys/anarch
-	backpack_contents = list(/obj/item/vampire_stake=3, /obj/item/vamp/keys/hack=1, /obj/item/card/credit=1)
+	backpack_contents = list(/obj/item/vampire_stake=3, /obj/item/vamp/keys/hack=1, /obj/item/gun/ballistic/automatic/pistol/darkpack/deagle=1, /obj/item/card/credit=1)
 

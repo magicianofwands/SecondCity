@@ -6,7 +6,7 @@
 	supervisors = SUPERVISOR_BARON
 	config_tag = "REEVE"
 	job_flags = CITY_JOB_FLAGS
-	outfit = /datum/outfit/job/vampire/baron
+	outfit = /datum/outfit/job/vampire/reeve
 
 	display_order = JOB_DISPLAY_ORDER_BARON
 	departments_list = list(
@@ -19,11 +19,11 @@
 	description = "You have been appointed by the Baron to maintain the Masquerade, the Anarch way."
 	minimum_masquerade = 3
 
-/datum/outfit/job/vampire/baron
+/datum/outfit/job/vampire/reeve
 	name = "Reeve"
 	jobtype = /datum/job/vampire/reeve
 
-	id = /obj/item/card/baron
+	id = /obj/item/card/reeve
 	ears = /obj/item/radio/headset/darkpack
 	glasses = /obj/item/clothing/glasses/vampire/sun
 	uniform = /obj/item/clothing/under/vampire/bar
@@ -32,5 +32,5 @@
 	gloves = /obj/item/clothing/gloves/vampire/work
 	l_pocket = /obj/item/smartphone/baron
 	r_pocket = /obj/item/vamp/keys/anarch
-	backpack_contents = list(/obj/item/vampire_stake=3, /obj/item/vamp/keys/hack=1, /obj/item/card/credit=1)
+	backpack_contents = list(/obj/item/vampire_stake=1, /obj/item/vamp/keys/hack=1, /obj/item/masquerade_contract=3, /obj/item/card/credit=1)
 
