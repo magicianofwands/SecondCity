@@ -5,6 +5,8 @@ A thrown glass of water can make a slippery tile, allowing you to slow down your
 ATMs can be smashed with a high force weapon for whatever cash is inside of them.
 As a Baron, you lead the individualistic kindred of the city. You are still part of the Camarilla, but you have more sway here. San Francisco is an Anarch domain.
 As a Bruiser, you hang out with the Baron and support him in his rebellious troublemaking.
+As a Reeve, you work to maintain the Masquerade in a more Anarch way, whatever that may be.
+As a Warlord, you lead the Baron's men into battle and act as their lieutenant.
 As a Chantry Regent, your objectives are to lead the Tremere of San Francisco and keep the Chantry secure, as well as hunt down any who would steal your clan's secrets.
 As a Dealer, you hold a powerful domain. You can make deals with whomever you want - but boons are always worth more than money.
 As a Hound, your objectives are to enforce the Traditions and the Camarilla's rule of the city.

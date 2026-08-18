@@ -14,6 +14,8 @@
 	name = "generic anarch start"
 
 JOB_START_HELPER(anarch/baron, JOB_BARON)
+JOB_START_HELPER(anarch/warlord, JOB_WARLORD)
+JOB_START_HELPER(anarch/reeve, JOB_REEVE)
 JOB_START_HELPER(anarch/bruiser, JOB_BRUISER)
 JOB_START_HELPER(anarch/emissary, JOB_EMISSARY)
 JOB_START_HELPER(anarch/sweeper, JOB_SWEEPER)
