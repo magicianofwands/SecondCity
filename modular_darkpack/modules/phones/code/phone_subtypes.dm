@@ -156,6 +156,17 @@
 		, alist(NETWORK_ID = VAMPIRE_LEADER_NETWORK, OUR_ROLE = "Anarchy Rose Club Manager", USE_JOB_TITLE = FALSE)
 		)
 
+/obj/item/smartphone/warlord
+	contact_networks_pre_init = list(
+		alist(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Security Supervisor", USE_JOB_TITLE = FALSE)
+		, alist(NETWORK_ID = VAMPIRE_LEADER_NETWORK, OUR_ROLE = "Anarchy Rose Club Security", USE_JOB_TITLE = FALSE)
+		)
+
+/obj/item/smartphone/reeve
+	contact_networks_pre_init = list(
+		alist(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Cleaner", USE_JOB_TITLE = FALSE)
+		, alist(NETWORK_ID = VAMPIRE_LEADER_NETWORK, OUR_ROLE = "Anarchy Rose Janitor", USE_JOB_TITLE = FALSE)
+
 /obj/item/smartphone/emissary
 	contact_networks_pre_init = list(
 		alist(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Representative", USE_JOB_TITLE = FALSE)

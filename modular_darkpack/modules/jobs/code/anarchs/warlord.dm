@@ -30,7 +30,7 @@
 	suit = /obj/item/clothing/suit/vampire/jacket/better
 	shoes = /obj/item/clothing/shoes/vampire
 	gloves = /obj/item/clothing/gloves/vampire/work
-	l_pocket = /obj/item/smartphone/baron
+	l_pocket = /obj/item/smartphone/warlord
 	r_pocket = /obj/item/vamp/keys/anarch
 	backpack_contents = list(/obj/item/vampire_stake=3, /obj/item/vamp/keys/hack=1, /obj/item/gun/ballistic/automatic/pistol/darkpack/deagle=1, /obj/item/card/credit=1)
 
