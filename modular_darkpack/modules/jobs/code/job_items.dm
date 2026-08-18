@@ -85,19 +85,19 @@
 	name = "eye badge"
 	desc = "The badge of a leader. The eagle stands proud, surrounded by the gold of their nest."
 	icon = 'modular_darkpack/modules/jobs/icons/id_items.dmi'
-	icon_state = "eagle_badge"
+	icon_state = "eye_badge"
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/jobs/icons/id_onfloors.dmi')
 	worn_icon = 'modular_darkpack/modules/jobs/icons/id_worn.dmi'
-	worn_icon_state = "eagle_badge"
+	worn_icon_state = "emissary_badge"
 
 /obj/item/card/warlord
 	name = "sword badge"
 	desc = "The badge of a leader. The eagle stands proud, surrounded by the gold of their nest."
 	icon = 'modular_darkpack/modules/jobs/icons/id_items.dmi'
-	icon_state = "warlord_badge"
+	icon_state = "sword_badge"
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/jobs/icons/id_onfloors.dmi')
 	worn_icon = 'modular_darkpack/modules/jobs/icons/id_worn.dmi'
-	worn_icon_state = "eagle_badge"
+	worn_icon_state = "emissary_badge"
 
 /obj/item/card/tapster
 	name = "bartender badge"
